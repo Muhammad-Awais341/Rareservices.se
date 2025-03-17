@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import { Button } from '@/components/ui/button';
@@ -12,7 +11,9 @@ import {
   MapPin,
   Users,
   Star,
-  Send
+  Send,
+  Calendar,
+  Plane
 } from 'lucide-react';
 import { 
   Dialog,
@@ -297,9 +298,22 @@ const Index = () => {
                                 {...field}
                               >
                                 <option value="taxi">Taxi Service</option>
+                                <option value="airport">Airport Transfer</option>
+                                <option value="reservation">Reservation</option>
                                 <option value="it">IT Solution</option>
                                 <option value="courier">Courier Delivery</option>
                               </select>
+                            </FormControl>
+                          </FormItem>
+                        )}
+                      />
+                      <FormField
+                        name="date"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>Date & Time (for Reservations)</FormLabel>
+                            <FormControl>
+                              <Input type="datetime-local" {...field} />
                             </FormControl>
                           </FormItem>
                         )}
@@ -326,22 +340,22 @@ const Index = () => {
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
                   <Car className="h-8 w-8 text-primary mb-2" />
                   <h3 className="font-medium text-center">Standard Fare</h3>
-                  <p className="text-sm text-gray-500 text-center">From 100 kr</p>
+                  <p className="text-sm text-gray-500 text-center">410 kr (15 min/10 km)</p>
+                </div>
+                <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
+                  <Plane className="h-8 w-8 text-primary mb-2" />
+                  <h3 className="font-medium text-center">Airport Transfer</h3>
+                  <p className="text-sm text-gray-500 text-center">800 kr (Airport to City)</p>
+                </div>
+                <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
+                  <Calendar className="h-8 w-8 text-primary mb-2" />
+                  <h3 className="font-medium text-center">Reservation</h3>
+                  <p className="text-sm text-gray-500 text-center">Book in advance</p>
                 </div>
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
                   <Code className="h-8 w-8 text-primary mb-2" />
                   <h3 className="font-medium text-center">IT Consulting</h3>
                   <p className="text-sm text-gray-500 text-center">From 500 kr/hr</p>
-                </div>
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
-                  <Package className="h-8 w-8 text-primary mb-2" />
-                  <h3 className="font-medium text-center">Local Delivery</h3>
-                  <p className="text-sm text-gray-500 text-center">From 150 kr</p>
-                </div>
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
-                  <Clock className="h-8 w-8 text-primary mb-2" />
-                  <h3 className="font-medium text-center">Express Service</h3>
-                  <p className="text-sm text-gray-500 text-center">+50 kr fee</p>
                 </div>
               </div>
             </div>
@@ -361,7 +375,7 @@ const Index = () => {
               <div className="space-y-1 mt-4">
                 <p className="text-sm">Stockholm, Sweden</p>
                 <p className="text-sm">Phone: +46 70 123 4567</p>
-                <p className="text-sm">Email: info@rareservices.se</p>
+                <p className="text-sm">Email: contact@rareservices.se</p>
                 <p className="text-sm">Business Hours: Mon-Fri 8:00-18:00</p>
               </div>
             </div>
