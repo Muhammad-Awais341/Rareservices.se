@@ -376,7 +376,6 @@ const Index = () => {
                 <p className="text-sm">Stockholm, Sweden</p>
                 <p className="text-sm">Phone: +46 70 123 4567</p>
                 <p className="text-sm">Email: contact@rareservices.se</p>
-                <p className="text-sm">Business Hours: Mon-Fri 8:00-18:00</p>
               </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-10">
