@@ -233,7 +233,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Send className="h-5 w-5 text-primary" />
-                  <span>Email: info@ultraride.se</span>
+                  <span>Email: info@rareservices.se</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="h-5 w-5 text-primary" />
@@ -354,14 +354,14 @@ const Index = () => {
         <div className="container flex flex-col gap-4 py-10 md:py-16 px-4 md:px-6">
           <div className="flex flex-col gap-2 md:flex-row md:justify-between">
             <div className="space-y-2">
-              <h3 className="text-xl font-bold">UltraRide</h3>
+              <h3 className="text-xl font-bold">Rare Services</h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Your premium taxi, IT & courier service provider in Sweden.
               </p>
               <div className="space-y-1 mt-4">
                 <p className="text-sm">Stockholm, Sweden</p>
                 <p className="text-sm">Phone: +46 70 123 4567</p>
-                <p className="text-sm">Email: info@ultraride.se</p>
+                <p className="text-sm">Email: info@rareservices.se</p>
                 <p className="text-sm">Business Hours: Mon-Fri 8:00-18:00</p>
               </div>
             </div>
@@ -411,7 +411,7 @@ const Index = () => {
             </div>
           </div>
           <div className="text-sm text-gray-500 dark:text-gray-400 mt-8">
-            &copy; {new Date().getFullYear()} UltraRide. All rights reserved. Based in Sweden.
+            &copy; {new Date().getFullYear()} Rare Services. All rights reserved. Based in Sweden.
           </div>
         </div>
       </footer>
