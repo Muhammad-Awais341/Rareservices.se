@@ -44,7 +44,7 @@ const Index = () => {
                   Your Premium Taxi, IT, & Courier Service
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Professional transportation, IT solutions, and reliable courier services all in one place.
+                  Professional transportation, IT solutions, and reliable courier services all in one place. Based in Sweden, serving you with excellence.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -229,11 +229,15 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-2">
                   <PhoneCall className="h-5 w-5 text-primary" />
-                  <span>Call us: (123) 456-7890</span>
+                  <span>Call us: +46 70 123 4567</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Send className="h-5 w-5 text-primary" />
-                  <span>Email: info@ultraride.com</span>
+                  <span>Email: info@ultraride.se</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <MapPin className="h-5 w-5 text-primary" />
+                  <span>Based in Stockholm, Sweden</span>
                 </div>
               </div>
               <Dialog>
@@ -277,7 +281,7 @@ const Index = () => {
                           <FormItem>
                             <FormLabel>Phone</FormLabel>
                             <FormControl>
-                              <Input placeholder="(123) 456-7890" {...field} />
+                              <Input placeholder="+46 70 123 4567" {...field} />
                             </FormControl>
                           </FormItem>
                         )}
@@ -322,22 +326,22 @@ const Index = () => {
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
                   <Car className="h-8 w-8 text-primary mb-2" />
                   <h3 className="font-medium text-center">Standard Fare</h3>
-                  <p className="text-sm text-gray-500 text-center">From $10</p>
+                  <p className="text-sm text-gray-500 text-center">From 100 kr</p>
                 </div>
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
                   <Code className="h-8 w-8 text-primary mb-2" />
                   <h3 className="font-medium text-center">IT Consulting</h3>
-                  <p className="text-sm text-gray-500 text-center">From $50/hr</p>
+                  <p className="text-sm text-gray-500 text-center">From 500 kr/hr</p>
                 </div>
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
                   <Package className="h-8 w-8 text-primary mb-2" />
                   <h3 className="font-medium text-center">Local Delivery</h3>
-                  <p className="text-sm text-gray-500 text-center">From $15</p>
+                  <p className="text-sm text-gray-500 text-center">From 150 kr</p>
                 </div>
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg dark:bg-gray-800">
                   <Clock className="h-8 w-8 text-primary mb-2" />
                   <h3 className="font-medium text-center">Express Service</h3>
-                  <p className="text-sm text-gray-500 text-center">+$5 fee</p>
+                  <p className="text-sm text-gray-500 text-center">+50 kr fee</p>
                 </div>
               </div>
             </div>
@@ -352,8 +356,14 @@ const Index = () => {
             <div className="space-y-2">
               <h3 className="text-xl font-bold">UltraRide</h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Your premium taxi, IT & courier service provider.
+                Your premium taxi, IT & courier service provider in Sweden.
               </p>
+              <div className="space-y-1 mt-4">
+                <p className="text-sm">Stockholm, Sweden</p>
+                <p className="text-sm">Phone: +46 70 123 4567</p>
+                <p className="text-sm">Email: info@ultraride.se</p>
+                <p className="text-sm">Business Hours: Mon-Fri 8:00-18:00</p>
+              </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-10">
               <div className="space-y-2">
@@ -391,17 +401,17 @@ const Index = () => {
                     <a href="#book" className="text-sm hover:underline">Book Now</a>
                   </li>
                   <li>
-                    <a href="#" className="text-sm hover:underline">(123) 456-7890</a>
+                    <a href="tel:+46701234567" className="text-sm hover:underline">+46 70 123 4567</a>
                   </li>
                   <li>
-                    <a href="#" className="text-sm hover:underline">info@ultraride.com</a>
+                    <a href="mailto:info@ultraride.se" className="text-sm hover:underline">info@ultraride.se</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
           <div className="text-sm text-gray-500 dark:text-gray-400 mt-8">
-            &copy; {new Date().getFullYear()} UltraRide. All rights reserved.
+            &copy; {new Date().getFullYear()} UltraRide. All rights reserved. Based in Sweden.
           </div>
         </div>
       </footer>
