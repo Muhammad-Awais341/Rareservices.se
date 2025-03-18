@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { 
@@ -231,7 +230,7 @@ const Index = () => {
                                 <option value="taxi">Taxi Service</option>
                                 <option value="airport">Airport Transfer</option>
                                 <option value="reservation">Reservation</option>
-                                <option value="it">IT Solution</option>
+                                <option value="tech">Digital Tech Solutions</option>
                                 <option value="courier">Courier Delivery</option>
                               </select>
                             </FormControl>
@@ -284,7 +283,7 @@ const Index = () => {
               </div>
               <div className="flex flex-col items-center p-4 bg-white dark:bg-gray-800 rounded-xl shadow-sm">
                 <Code className="h-6 w-6 text-primary mb-2" />
-                <h3 className="text-sm font-medium text-center">IT Consulting</h3>
+                <h3 className="text-sm font-medium text-center">Digital Tech Solutions</h3>
                 <p className="text-xs text-gray-500 text-center">From 500 kr/hr</p>
               </div>
             </div>
@@ -315,7 +314,7 @@ const Index = () => {
                     <a href="#services" className="text-xs hover:underline">Taxi</a>
                   </li>
                   <li>
-                    <a href="#services" className="text-xs hover:underline">IT Solutions</a>
+                    <a href="#services" className="text-xs hover:underline">Digital Tech Solutions</a>
                   </li>
                   <li>
                     <a href="#services" className="text-xs hover:underline">Courier</a>

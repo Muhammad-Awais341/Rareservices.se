@@ -91,7 +91,7 @@ const Services = () => {
             index={0}
           />
           <ServiceCard
-            title="IT Programming Solutions"
+            title="Digital Tech Solutions"
             description="Expert software development, web design, and technical support services to elevate your digital presence."
             icon={<Code size={20} />}
             image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1469&auto=format&fit=crop"
