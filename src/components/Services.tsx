@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from 'react';
 import { Car, Code, Package } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -87,7 +86,7 @@ const Services = () => {
             title="Premium Taxi Service"
             description="Comfortable, timely, and professional taxi services for all your transportation needs, available 24/7."
             icon={<Car size={20} />}
-            image="https://images.unsplash.com/photo-1511879648075-197908c3cc6b?q=80&w=1470&auto=format&fit=crop"
+            image="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1470&auto=format&fit=crop"
             index={0}
           />
           <ServiceCard
