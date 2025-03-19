@@ -87,7 +87,7 @@ const Services = () => {
             title="Premium Taxi Service"
             description="Comfortable, timely, and professional taxi services for all your transportation needs, available 24/7."
             icon={<Car size={20} />}
-            image="https://images.unsplash.com/photo-1609016823981-7fbb01ab1d40?q=80&w=1932&auto=format&fit=crop"
+            image="https://images.unsplash.com/photo-1587769197598-e16d7e48131c?q=80&w=2787&auto=format&fit=crop"
             index={0}
           />
           <ServiceCard
