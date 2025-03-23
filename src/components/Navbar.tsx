@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
@@ -25,13 +25,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex-shrink-0">
-            <a href="#" className="flex items-center gap-2 group">
-              <div className="bg-primary/10 p-2 rounded-full transition-colors group-hover:bg-primary/20">
-                <Zap className="w-5 h-5 text-primary" />
-              </div>
-              <span className="text-2xl font-display font-bold tracking-tight">
-                Velocity<span className="text-primary">Sync</span>
-              </span>
+            <a href="#" className="text-2xl font-display font-bold tracking-tight">
+              Rare Services
             </a>
           </div>
           
