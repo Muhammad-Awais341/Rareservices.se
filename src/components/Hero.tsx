@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/40 rounded-3xl transform rotate-3 animate-float"></div>
             <div className="absolute inset-0 bg-card border border-border shadow-xl rounded-3xl overflow-hidden transform -rotate-3 animate-float" style={{animationDelay: '1s'}}>
               <img 
-                src="https://images.unsplash.com/photo-1496307653780-42ee777d4833?q=80&w=1470&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1470&auto=format&fit=crop" 
                 alt="Premium service" 
                 className="w-full h-full object-cover"
                 onLoad={() => setIsLoaded(true)} 
