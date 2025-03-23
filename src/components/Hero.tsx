@@ -60,8 +60,8 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/40 rounded-3xl transform rotate-3 animate-float"></div>
             <div className="absolute inset-0 bg-card border border-border shadow-xl rounded-3xl overflow-hidden transform -rotate-3 animate-float" style={{animationDelay: '1s'}}>
               <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1470&auto=format&fit=crop" 
-                alt="Premium service" 
+                src="/lovable-uploads/9860e9c6-60f5-45ef-8ff7-f29f50d190c7.png" 
+                alt="Technology and transport services" 
                 className="w-full h-full object-cover"
                 onLoad={() => setIsLoaded(true)} 
               />
