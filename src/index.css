@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -7,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%; /* Changed to a light blue-gray */
+    --background: 220 33% 98%; /* Changed to a softer light gray with slight blue undertone */
     --foreground: 222 20% 18%;
 
     --card: 0 0% 100%;
@@ -85,9 +84,7 @@
     --sidebar-border: 240 4% 16%;
     --sidebar-ring: 217 91% 60%;
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
