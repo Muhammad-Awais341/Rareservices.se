@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/40 rounded-3xl transform rotate-3 animate-float"></div>
             <div className="absolute inset-0 bg-card border border-border shadow-xl rounded-3xl overflow-hidden transform -rotate-3 animate-float" style={{animationDelay: '1s'}}>
               <img 
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80" 
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80" 
                 alt="Technology and transport services" 
                 className="w-full h-full object-cover"
                 onLoad={() => setIsLoaded(true)} 
