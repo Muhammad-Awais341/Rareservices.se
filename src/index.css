@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 220 33% 98%; /* Changed to a softer light gray with slight blue undertone */
+    --background: 210 50% 97%; /* Changed to a more noticeable light blue-gray */
     --foreground: 222 20% 18%;
 
     --card: 0 0% 100%;
