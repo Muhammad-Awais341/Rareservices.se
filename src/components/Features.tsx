@@ -23,22 +23,22 @@ const Features = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="flex flex-col items-center p-4 bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all">
+          <div className="flex flex-col items-center p-4 bg-[#F1F0FB] dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all">
             <Clock className="h-8 w-8 text-primary mb-3" />
             <h3 className="font-medium text-base">24/7 Service</h3>
             <p className="text-xs text-gray-500 text-center mt-1">Always available</p>
           </div>
-          <div className="flex flex-col items-center p-4 bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all">
+          <div className="flex flex-col items-center p-4 bg-[#F1F0FB] dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all">
             <CheckCircle className="h-8 w-8 text-primary mb-3" />
             <h3 className="font-medium text-base">Reliable</h3>
             <p className="text-xs text-gray-500 text-center mt-1">Consistent quality</p>
           </div>
-          <div className="flex flex-col items-center p-4 bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all">
+          <div className="flex flex-col items-center p-4 bg-[#F1F0FB] dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all">
             <MapPin className="h-8 w-8 text-primary mb-3" />
             <h3 className="font-medium text-base">Local Expertise</h3>
             <p className="text-xs text-gray-500 text-center mt-1">Area knowledge</p>
           </div>
-          <div className="flex flex-col items-center p-4 bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all">
+          <div className="flex flex-col items-center p-4 bg-[#F1F0FB] dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all">
             <Users className="h-8 w-8 text-primary mb-3" />
             <h3 className="font-medium text-base">Professional</h3>
             <p className="text-xs text-gray-500 text-center mt-1">Expert team</p>
