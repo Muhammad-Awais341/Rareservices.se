@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Form, FormField, FormItem, FormLabel, FormControl } from '@/components/ui/form';
@@ -45,11 +44,11 @@ const BookingSection = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-2">
                 <PhoneCall className="h-5 w-5 text-primary" />
-                <span className="text-sm">+46 70 123 4567</span>
+                <span className="text-sm">+46 0790343729</span>
               </div>
               <div className="flex items-center gap-2">
                 <Send className="h-5 w-5 text-primary" />
-                <span className="text-sm">contact@rareservices.se</span>
+                <span className="text-sm">rareservices.se@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-primary" />
