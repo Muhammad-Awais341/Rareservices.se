@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
             </p>
             <div className="space-y-1">
               <p className="text-xs">Stockholm, Sweden</p>
-              <p className="text-xs">Phone: +46 0790343729</p>
+              <p className="text-xs">Phone: +46 790343729</p>
               <p className="text-xs">Email: rareservices.se@gmail.com</p>
             </div>
           </div>
@@ -70,3 +71,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

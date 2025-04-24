@@ -44,7 +44,7 @@ const BookingSection = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-2">
                 <PhoneCall className="h-5 w-5 text-primary" />
-                <span className="text-sm">+46 0790343729</span>
+                <span className="text-sm">+46 790343729</span>
               </div>
               <div className="flex items-center gap-2">
                 <Send className="h-5 w-5 text-primary" />
