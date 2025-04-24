@@ -52,7 +52,7 @@ const Footer = () => {
                   <a href="#book" className="text-xs hover:underline">Book Now</a>
                 </li>
                 <li>
-                  <a href="tel:+46701234567" className="text-xs hover:underline">+46 70 123 4567</a>
+                  <a href="tel:+46790343729" className="text-xs hover:underline">+46 790343729</a>
                 </li>
                 <li>
                   <a href="mailto:contact@rareservices.se" className="text-xs hover:underline">Email Us</a>
