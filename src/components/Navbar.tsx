@@ -38,7 +38,7 @@ const Navbar = () => {
             <a href="#about" className="font-medium hover:text-primary transition-colors">
               About
             </a>
-            <a href="#contact" className="font-medium hover:text-primary transition-colors">
+            <a href="#book" className="font-medium hover:text-primary transition-colors">
               Contact
             </a>
             <Button asChild>
@@ -68,7 +68,7 @@ const Navbar = () => {
           <a href="#about" className="block py-3 font-medium hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>
             About
           </a>
-          <a href="#contact" className="block py-3 font-medium hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>
+          <a href="#book" className="block py-3 font-medium hover:text-primary transition-colors" onClick={() => setIsMenuOpen(false)}>
             Contact
           </a>
           <Button asChild className="w-full">
