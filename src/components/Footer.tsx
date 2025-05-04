@@ -1,4 +1,6 @@
+
 import React from 'react';
+import Logo from './Logo';
 
 const Footer = () => {
   return (
@@ -6,7 +8,7 @@ const Footer = () => {
       <div className="container max-w-5xl mx-auto py-8 px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
-            <h3 className="text-lg font-bold mb-3">Rare Services</h3>
+            <Logo className="mb-3" />
             <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
               Premium transport & technology services in Sweden.
             </p>
