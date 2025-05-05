@@ -2,9 +2,11 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const isMobile = useIsMobile();
   
   useEffect(() => {
     setIsLoaded(true);
@@ -50,7 +52,7 @@ const Hero = () => {
               <a href="#book">Book a Ride</a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href="#contact">Contact Us</a>
+              <a href="#book">Contact Us</a>
             </Button>
           </div>
         </div>
@@ -62,8 +64,9 @@ const Hero = () => {
               <img 
                 src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80" 
                 alt="Technology and transport services" 
-                className="w-full h-full object-cover"
-                onLoad={() => setIsLoaded(true)} 
+                className={`w-full h-full object-cover ${isMobile ? 'object-contain' : 'object-cover'}`}
+                onLoad={() => setIsLoaded(true)}
+                loading="eager" 
               />
             </div>
           </div>
