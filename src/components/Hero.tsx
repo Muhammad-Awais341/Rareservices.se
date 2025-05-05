@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -61,13 +62,29 @@ const Hero = () => {
           <div className="relative w-full aspect-video md:aspect-square max-w-lg mx-auto parallax-container">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/40 rounded-3xl transform rotate-3 animate-float"></div>
             <div className="absolute inset-0 bg-card border border-border shadow-xl rounded-3xl overflow-hidden transform -rotate-3 animate-float" style={{animationDelay: '1s'}}>
-              <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80" 
-                alt="Technology and transport services" 
-                className={`w-full h-full object-cover ${isMobile ? 'object-contain' : 'object-cover'}`}
-                onLoad={() => setIsLoaded(true)}
-                loading="eager" 
-              />
+              {isMobile ? (
+                <div className="w-full h-full flex items-center justify-center p-4">
+                  <img 
+                    src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80" 
+                    alt="Technology and transport services" 
+                    className="max-w-full max-h-full object-contain"
+                    onLoad={() => setIsLoaded(true)}
+                    loading="eager" 
+                    fetchPriority="high"
+                  />
+                </div>
+              ) : (
+                <AspectRatio ratio={1}>
+                  <img 
+                    src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80" 
+                    alt="Technology and transport services" 
+                    className="w-full h-full object-cover"
+                    onLoad={() => setIsLoaded(true)}
+                    loading="eager" 
+                    fetchPriority="high"
+                  />
+                </AspectRatio>
+              )}
             </div>
           </div>
         </div>
